@@ -225,7 +225,7 @@ class settingsPage extends StatelessWidget {
             leading: Icon(Icons.language),
             title: Text('Language'),
             onTap: () {
-              // عمل تغییر زبان یا هر تنظیمات دیگر
+             
               ScaffoldMessenger.of(context).showSnackBar(
                 SnackBar(content: Text('Language changed')),
               );
@@ -235,7 +235,7 @@ class settingsPage extends StatelessWidget {
             leading: Icon(Icons.dark_mode),
             title: Text('Dark Mode'),
             onTap: () {
-              // عمل تغییر حالت تاریک یا روشن
+        
               ScaffoldMessenger.of(context).showSnackBar(
                 SnackBar(content: Text('The dark mode activated')),
               );
@@ -245,7 +245,7 @@ class settingsPage extends StatelessWidget {
             leading: Icon(Icons.notifications),
             title: Text('Notifications'),
             onTap: () {
-              // عمل تغییر تنظیمات اعلان‌ها
+         
               ScaffoldMessenger.of(context).showSnackBar(
                 SnackBar(content: Text('Notifications changed')),
               );
