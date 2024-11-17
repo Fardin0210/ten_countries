@@ -121,7 +121,7 @@ class _homePageState extends State<homePage> {
           padding: EdgeInsets.zero,
           children: [
             UserAccountsDrawerHeader(
-              decoration: BoxDecoration(color: Colors.cyan),
+              decoration: BoxDecoration(color: Colors.teal),
               accountName: Text("Username"),
               accountEmail: Text(
                 "username@gmail.com",
