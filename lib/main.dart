@@ -239,7 +239,7 @@ class _settingsPageState extends State<settingsPage> {
         title: Center(
           child: Text(
             'Settings',
-            style: TextStyle(color: Colors.white, fontFamily: 'Source Sans Pro'),
+            style: TextStyle(color: Colors.white, fontFamily: 'SourceSansPro'),
           ),
         ),
         backgroundColor: Colors.teal,
