@@ -131,6 +131,7 @@ class _homePageState extends State<homePage> {
                 child: Icon(
                   Icons.person,
                   size: 50,
+                  color: Colors.teal,
                 ),
               ),
             ),
