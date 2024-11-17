@@ -260,7 +260,6 @@ class _settingsPageState extends State<settingsPage> {
             leading: Icon(Icons.dark_mode),
             title: Text('Dark Mode'),
             onTap: () {
-              // عمل تغییر حالت تاریک یا روشن
               ScaffoldMessenger.of(context).showSnackBar(
                 SnackBar(content: Text('The dark mode activated')),
               );
