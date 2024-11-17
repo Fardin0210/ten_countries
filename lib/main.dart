@@ -316,17 +316,17 @@ class AboutUsPage extends StatelessWidget {
             SizedBox(height: 20),
             Text(
               'Flutter development: ',
-              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, fontFamily: 'SourceSansPro',),
             ),
             SizedBox(height: 10),
             Text(
               'Flutter team: ',
-              style: TextStyle(fontSize: 18),
+              style: TextStyle(fontSize: 18, fontFamily: 'SourceSansPro'),
             ),
             SizedBox(height: 20),
             Text(
               'Social Media Pages:',
-              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, fontFamily: 'SourceSansPro',),
             ),
             SizedBox(height: 10),
             ListTile(
@@ -334,7 +334,7 @@ class AboutUsPage extends StatelessWidget {
               title: Text('Instagram'),
               onTap: () {
                 ScaffoldMessenger.of(context).showSnackBar(
-                    SnackBar(content: Text('Instagram link clicked')));
+                    SnackBar(content: Text('Instagram link clicked',)));
               },
             ),
             ListTile(
